@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+	background-image: url('img/4ACK3R.jpg');
+	min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bolder;
+    border: 3px solid #2c3e50;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    height: 100%;
+    width: 0;
+    border-radius: 23px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.8s;
+    z-index: -1;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: 3px solid black;
+}
+a{
+    text-decoration: none;
+    color: azure;
+    font-weight: 900;
+    font-size: x-large;
+}
